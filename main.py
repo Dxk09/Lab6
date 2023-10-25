@@ -5,7 +5,7 @@ def encode_password(password): # function that encodes password by incrementing 
         encoded_password += encoded_digit
     return encoded_password
 
-def main():
+def main(): # main function
     encoded_password = None  # Initialize encoded_password to None
     psw_encode = None  # Initialize psw_encode to None
 
