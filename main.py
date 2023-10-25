@@ -1,3 +1,11 @@
+
+#added comment
+def encode(password):
+    encoded = ""
+    for i in password:
+        digit = int(i) + 3
+        encoded += str(digit)
+    return encoded
 def encode_password(password): # function that encodes password by incrementing each digit by three.
     encoded_password = ""
     for digit in password:
